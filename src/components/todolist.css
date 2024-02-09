@@ -1,0 +1,95 @@
+.card {
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  height: 325px;
+  width: 500px;
+}
+.card-1 {
+  width: 500px;
+  display: block;
+  justify-content: center;
+}
+
+.card-2 {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  height: 45px;
+  border-radius: 5px;
+  justify-content: flex-end;
+}
+.card-title {
+  margin: 12px 20px;
+  font-weight: 800px;
+}
+.text-box {
+  display: flex;
+  justify-content: center;
+}
+textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  border-radius: 3px;
+  line-height: 16px;
+  resize: none;
+}
+.save-btn {
+  height: 16px;
+  width: 74px;
+  box-sizing: content-box;
+  text-transform: uppercase;
+  margin: 18px;
+  justify-content: center;
+  padding: 4px;
+  cursor: pointer;
+  font-size: small;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(95, 153, 247);
+  color: white;
+}
+
+.console-box {
+  display: block;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  height: 240px;
+  width: 500px;
+}
+.console-box p {
+  margin-bottom: -9px;
+  display: block;
+  margin-left: 18px;
+  padding-top: 14px;
+}
+
+.console-text-box {
+  margin-left: 18px;
+  margin-top: 16px;
+  height: 128px;
+}
+.clear-btn {
+  height: 16px;
+  width: 74px;
+  box-sizing: content-box;
+  text-transform: uppercase;
+  margin: 18px;
+  justify-content: center;
+  padding: 4px;
+  cursor: pointer;
+  font-size: small;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(95, 153, 247);
+  color: white;
+}
+.card-3 {
+  display: right;
+  display: flex;
+  justify-content: right;
+  margin-top: -56px;
+}
